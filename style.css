@@ -176,6 +176,8 @@ nav a:hover {
     #about, #services, #contact {
         padding: 40px 20px;
     }
+  .services-grid {
+        grid-template-columns: 1fr;  
 }
 .contact-form {
     display: flex;
@@ -183,7 +185,10 @@ nav a:hover {
     max-width: 600px;
     margin: 30px auto;
     gap: 15px;
+    padding: 0 10px;
 }
+body {
+        overflow-x: hidden;}
 .form-input {
     padding: 15px;
     border: none;
@@ -226,4 +231,5 @@ section {
 section.visible {
     opacity: 1;
     transform: translateY(0);
+}
 }
